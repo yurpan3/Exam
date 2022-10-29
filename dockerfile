@@ -2,9 +2,7 @@ FROM ubuntu:latest
 
 WORKDIR /home/app
 
-RUN sudo apt update
-
-COPY /home/yuri/Desktop/DockerPractice/CV-website/index.html /home/app
+COPY /home/yuri/Desktop/DockerPractice/index.html /home/app
 
 RUN apt update 
 
